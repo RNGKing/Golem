@@ -5,12 +5,11 @@ let win
 
 function createWindow(){
     win = new BrowserWindow({
-        width:800, 
-        height: 600,
+        width:1300, 
+        height: 900,
         useContentSize: true,
         webPreferences:{
-            webgl: true,
-            webSecurity: false
+            webgl: true
         }
     })
     win.loadFile ('./app/index.html')

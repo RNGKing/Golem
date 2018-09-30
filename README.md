@@ -8,7 +8,7 @@ Rogue-like themed around the concept of "What is worth Sacraficing for Redemptio
 Golem is made using: 
 * Electron to deploy it cross-platform 
 * pixijs for graphics rendering
-* sound.js for audio
+* Howlerfor audio
 
 # Build Instructions
 
