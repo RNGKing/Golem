@@ -5,17 +5,22 @@ Rogue-like themed around the concept of "What is worth Sacraficing for Redemptio
 
 # What is Golem made With?
 
-Golem is made using Electron to deploy it cross-platform, pixijs for graphics rendering and sound.js for audio
+Golem is made using: 
+* Electron to deploy it cross-platform 
+* pixijs for graphics rendering
+* sound.js for audio
 
 # Build Instructions
 
 * Install the latest version of node and npm on your machine
 * Pull the repository using the SSH key provided
 * Input the following into your command line in the working directory:
+
 ```
 npm install package.json
 ```
 * To run the game:
+
 ```
 npm start
 ```
@@ -30,5 +35,5 @@ whatever to the source code on your own terms. Just please credit and link to th
 your inspiration be it story, code or concepts. 
 
 # Contributors
-* Patrick Phillips aka RNGKing
-* Leon Kennedy aka noelreverse
+* Patrick Phillips aka RNGKing - Programmer and Developer
+* Leon Kennedy aka noelreverse - Artist and Developer
