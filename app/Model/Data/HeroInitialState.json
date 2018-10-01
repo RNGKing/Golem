@@ -1,0 +1,61 @@
+{
+    "Attributes":
+    {
+        "Resilience" : 10,
+        "Finesse" : 8,
+        "Intellect" : 9,
+        "Size" : 5
+    },
+    "Limbs" :{
+        "Arms":{
+            "Right" : {
+                "Type" : "human",
+                "CanHold" : true,
+                "Holding" : "Crusaders_Sword"
+            },
+            "Left" : {
+                "Type" : "human",
+                "CanHold" : true,
+                "Holding" : "Light_Blaster"
+            }
+        },
+        "Legs":{
+            "Right" : {
+                "Type" : "human",
+                "CanHold" : true,
+                "Holding" : "Crusader_Leg_Plating"
+            },
+            "Left" : {
+                "Type" : "human",
+                "CanHold" : true,
+                "Holding" : "Crusader_Leg_Plating"
+            }
+        },
+        "Torso" : {
+            "Type" : "human",
+            "CanHold" : true,
+            "Holding" : "Crusader_Chest_Plating"
+        },
+        "Head" :{ 
+            "Type" : "human",
+            "CanHold" : true,
+            "Holding" : "Crusader_Helmet"
+        },
+        "Back":{
+            "Type" : "unavailable",
+            "CanHold" : "unavailable",
+            "Holding" : "unavailable"
+        },
+        "Tail":{
+            "Type" : "unavailable",
+            "CanHold" : "unavailable",
+            "Holding" : "unavailable"
+        },
+        "Soul" :{
+            "Type" : "unavailable",
+            "CanHold" : "unavailable",
+            "Holding" : "unavailable"           
+        }
+        
+    }
+}

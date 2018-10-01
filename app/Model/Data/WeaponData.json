@@ -1,0 +1,24 @@
+{
+    "Crusaders_Sword" : {
+        "DamageRating" :
+        {
+            "BaseDamage" : 10,
+            "ResScaling" : 1.25,
+            "FinScaling" : 0.5,
+            "IntScaling" : 0.1,
+            "QualMult" : 1
+        },
+        "DamageType" : ["Slashing"]
+    },
+    "Light_Blaster" : {
+        "DamageRating" :
+        {
+            "BaseDamage" : 7.5,
+            "ResScaling" : 0.2,
+            "FinScaling" : 1.25,
+            "IntScaling" : 0.5,
+            "QualMult" : 1
+        },
+        "DamageType" : ["Piercing", "Fire"]
+    }
+}
