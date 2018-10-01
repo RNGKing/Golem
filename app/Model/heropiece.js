@@ -4,4 +4,6 @@ class HeroPiece extends BoardPiece{
     constructor(sprite){
         super(sprite);
     }
+
+    
 }

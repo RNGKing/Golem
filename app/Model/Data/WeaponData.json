@@ -8,17 +8,29 @@
             "IntScaling" : 0.1,
             "QualMult" : 1
         },
-        "DamageType" : ["Slashing"]
+        "DamageType" : ["Slashing"],
+        "Requirements":
+        {
+            "Resilience" : 8,
+            "Finesse" : 6,
+            "Intellect" : 5
+        }
     },
     "Light_Blaster" : {
         "DamageRating" :
         {
             "BaseDamage" : 7.5,
-            "ResScaling" : 0.2,
+            "ResScaling" : 0.1,
             "FinScaling" : 1.25,
             "IntScaling" : 0.5,
             "QualMult" : 1
         },
-        "DamageType" : ["Piercing", "Fire"]
+        "DamageType" : ["Piercing", "Fire"],
+        "Requirements":
+        {
+            "Resilience" : 4,
+            "Finesse" : 7,
+            "Intellect" : 5
+        }
     }
 }

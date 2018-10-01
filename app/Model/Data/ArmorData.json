@@ -1,0 +1,71 @@
+{
+    "Crusader_Leg_Plating" : {
+        "Resistances" :{
+            "Slashing" : 10,
+            "Piercing" : 5,
+            "Bludgeoning" : 2,
+            "Fire" : 8,
+            "Cold" : 8,
+            "Lightning" : 2
+        },
+        "Penalties": {
+            "Attack" : -1
+        },
+        "Abilities": {
+            "Boost" :{
+                "Initiative" : 1
+            }
+        },
+        "Requirements" : {
+            "Resilience" : 6,
+            "Finesse" : 4,
+            "Intellect" : 2
+        }
+    },
+    "Crusader_Chest_Plating" :{
+        "Resistances" :{
+            "Slashing" : 18,
+            "Piercing" : 8,
+            "Bludgeoning" : 2,
+            "Fire" : 10,
+            "Cold" : 8,
+            "Lightning" : 2
+        },
+        "Penalties": {
+            "Attack-Melee" : -1
+        },
+        "Abilities": {
+            "Boost" :{
+                "Health_Multiplier" : 1.15
+            }
+        },
+        "Requirements" : {
+            "Resilience" : 8,
+            "Finesse" : 6,
+            "Intellect" : 2
+        }        
+    },
+    "Crusader_Helmet" :{
+        "Resistances" :{
+            "Slashing" : 10,
+            "Piercing" : 5,
+            "Bludgeoning" : 2,
+            "Fire" : 8,
+            "Cold" : 8,
+            "Lightning" : 2
+        },
+        "Penalties": {
+            
+        },
+        "Abilities": {
+            "Boost" :{
+                "Attack-Ranged" : 2
+            }
+        },
+        "Requirements" : {
+            "Resilience" : 6,
+            "Finesse" : 4,
+            "Intellect" : 2
+        }        
+    }
+}
