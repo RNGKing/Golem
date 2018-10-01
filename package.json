@@ -7,7 +7,9 @@
   },
   "dependencies": {
     "electron": "^3.0.2",
+    "events": "^3.0.0",
     "howler": "^2.0.15",
+    "load-json-file": "^5.1.0",
     "pixi.js": "^4.8.2"
   }
 }

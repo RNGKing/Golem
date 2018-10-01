@@ -1,6 +1,7 @@
 const PIXI = require('pixi.js');
 
 const GameBoard = require('./Model/gameboard.js');
+const HeroPiece = require('./Model/heropiece.js');
 
 let Application = PIXI.Application,
     loader = PIXI.loader,
@@ -45,7 +46,9 @@ function setup()
     //Create the floor and wall sprites
     //Create the hero sprites
     
-    heroSprite = new Sprite(resources['Knight_Of_The_Forst.png'].texture);
+    heroSprite = new Sprite(resources['Knight_Of_The_Forest.png'].texture);
+
+    let hero = new HeroPiece(heroSprite);
 
     //Create the monsters sprites
     //Assign the Keyboard inputs

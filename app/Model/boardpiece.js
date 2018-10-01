@@ -9,3 +9,4 @@ class BoardPiece{
         this.type = type;
     }
 }
+module.exports = BoardPiece;
